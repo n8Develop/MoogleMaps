@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import HeadSearch from \"/components/Heading/HeadSearch.svelte\";\n  import MapHolder from \"/components/Map/MapHolder.svelte\";\n  import TableHolder from \"/components/Table/TableHolder.svelte\";\n  import CursorHandler from \"/components/Cursor/cursorHandler.svelte\";\n  import Footing from \"/components/Footer/Footing.svelte\";\n\n  import Data from \"//data.json\";\n</script>\n\n<style>\n  main {\n    font-family: sans-serif;\n    cursor: url(\"cursor2.png\"), auto;\n  }\n  .flexArea {\n    display: flex;\n  }\n</style>\n\n<main>\n\t\n<HeadSearch class=\"hds\"/>\n<div class=\"flexArea\">\n<TableHolder dataHold={Data} class=\"tbho\"/>\n<MapHolder class=\"mpho\"/>\n</div>\n<CursorHandler class=\"crsr\"/>\n<Footing class=\"fting\"/>\n\n</main>"
+  ],
+  "names": [],
+  "mappings": "AAWE,IAAI,eAAC,CAAC,AACJ,WAAW,CAAE,UAAU,CACvB,MAAM,CAAE,kBAAkB,CAAC,CAAC,IAAI,AAClC,CAAC,AACD,SAAS,eAAC,CAAC,AACT,OAAO,CAAE,IAAI,AACf,CAAC"
+}
