@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "craft": "landtrap salad",
+    "picture": "tasty leafs",
+    "quant": 99,
+    "mats": [
+      ["spinch", 99],
+      ["tasty", 99],
+      ["traps", 99]
+    ]
+  },
+  {
+    "id": 1,
+    "craft": "fried namazu",
+    "picture": "something about it is fishy",
+    "quant": 99,
+    "mats": [
+      ["spinch", 99],
+      ["namazu", 99],
+      ["tasty", 99]
+    ]
+  }
+]
